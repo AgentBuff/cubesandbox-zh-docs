@@ -1,0 +1,23 @@
+
+> project-docs@1.0.0 docs:build
+> vitepress build
+
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+- building client + server bundles...
+x Build failed in 18.35s
+鉁?[0m building client + server bundles...
+build error:
+EPERM: operation not permitted, scandir 'D:\person\code\CubeSandbox\docs\.vitepress\dist\guide'
+EPERM: operation not permitted, scandir 'D:\person\code\CubeSandbox\docs\.vitepress\dist\guide'
+    at readdirSync (node:fs:1583:26)
+    at _rmdirSync (node:internal/fs/rimraf:251:29)
+    at rimrafSync (node:internal/fs/rimraf:194:7)
+    at Object.rmSync (node:fs:1247:10)
+    at emptyDir (file:///D:/person/code/CubeSandbox/docs/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:17082:19)
+    at prepareOutDir (file:///D:/person/code/CubeSandbox/docs/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65746:7)
+    at build (file:///D:/person/code/CubeSandbox/docs/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65711:7)
+    at async file:///D:/person/code/CubeSandbox/docs/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45338:40
+    at async task (file:///D:/person/code/CubeSandbox/docs/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:40415:5)
+    at async bundle (file:///D:/person/code/CubeSandbox/docs/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45337:3)

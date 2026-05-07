@@ -1,0 +1,15 @@
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+- building client + server bundles...
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+鉁?[0m building client + server bundles...
+- rendering pages...
+鉁?[0m rendering pages...
+build error:
+EPERM: operation not permitted, scandir 'D:\person\code\CubeSandbox\docs\.vitepress\.temp\assets'
+Error: EPERM: operation not permitted, scandir 'D:\person\code\CubeSandbox\docs\.vitepress\.temp\assets'
